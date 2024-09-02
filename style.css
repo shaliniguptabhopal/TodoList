@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    width:100%;
+    margin:0;
+}
+.container{
+    width:90%;
+    margin:auto;
+    height:100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: beige;
+}
+.main{
+    margin-top:5%;
+    height:80vh;
+    background-color: aliceblue;
+}
+.form{
+    margin-top:5%;
+    padding:30px;
+    width:100%;
+   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+}
+.form-content{
+    width:100%;
+}
+.flex{
+    display:flex;
+    justify-content: space-between;
+    /* width:100%;*/
+} 
+ul{
+    width:100%;
+}
+.grocery-list{
+    margin:auto;
+    padding:10px 20px;
+    /* visibility: hidden; */
+}
+.btn{
+    padding: .2rem;
+    margin-left:1px;
+    background-color: none;
+    color:white;
+    outline: none;
+    border:none;
+}
+.btn-1{
+    padding: .5rem;
+    margin-left:1px;
+    background-color: none;
+    color:white;
+    outline: none;
+    border:none;
+}
+input{
+    padding:.5rem;
+   
+}
+.clear{
+    margin-top:50px;
+}
+.grn{
+    background-color: green;
+    
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+
+ul li{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    /* width:100%; */
+    border:1px solid gray;
+    border-radius:5px;
+    margin-top:.5rem;
+    padding:.5rem;
+}
+ul li p{
+    text-align: left;
+    flex-grow: 1;
+}
+#alert{
+    padding:1rem;
+    
+}
